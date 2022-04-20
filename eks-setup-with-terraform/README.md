@@ -37,7 +37,7 @@ export PATH=$PATH:/usr/local/bin
 vi .bashrc
 export PATH="$PATH:/usr/local/bin"
 # Source .bashrc to reflect for current session
-$ source ~/.bashrc  
+source ~/.bashrc  
 # run the scripts https://github.com/mylandmarktechs/eks-terraform-setup/blob/main/terraform-install.sh
 
 sudo yum install wget unzip -y
